@@ -1,0 +1,20 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.list{
+    font-size: medium;
+}
+.title{
+    font-size: xx-large;
+    font-weight: 800;
+    color: #cb7c2c;
+}
+h3{
+    font-size: large;
+    color: #7fb7be;
+}
+.buttonHome{
+    font-weight: 700;
+    color: #dacc3e;
+    background-color: #7fb7be;
+}
