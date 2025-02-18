@@ -1,11 +1,42 @@
-.title{
+*,
+*::before
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title,
+.links{
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
+}
+
+.title{
+    font-size: 2rem;
+    margin: 3em;
     font-weight: 800;
     text-align: center;
+    margin-bottom: 6em;
+    text-decoration: line-through;
+    /* color: crimson; */
+    color: coral;
+
 }
-.links{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-    text-align: center;
+
+.links a{
+    display: block;
+    margin: 3rem auto;
+    font-size: 1.4rem;
+    border-radius:  0.2em;
+    border: 2px solid rgba(255, 251, 0, 0.795);
+    background-color: rgb(253, 194, 66);
+    width: 300px;
+    padding: 1em 0;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+button{
+	all: unset;
 }
